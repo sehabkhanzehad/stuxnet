@@ -74,7 +74,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav><!-- End Nav Menu -->
 
-      <a class="btn-getstarted" href="dashborad/signIn.php">Sign In</a>
+      <a class="btn-getstarted" href="/stuxnet/dashboard/signIn.php">Sign In</a>
 
     </div>
   </header><!-- End Header -->

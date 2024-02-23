@@ -27,9 +27,11 @@ require "loginSession.php"
     <link rel="shortcut icon" href="assets/images/favicon.png" />
 </head>
 
+
+
 <body>
     <div class="container-scroller">
-        <div class="row p-0 m-0 proBanner" id="proBanner">
+        <!-- <div class="row p-0 m-0 proBanner" id="proBanner">
             <div class="col-md-12 p-0 m-0">
                 <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
                     <div class="ps-lg-1">
@@ -46,7 +48,7 @@ require "loginSession.php"
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- partial:partials/_navbar.html -->
         <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex align-items-top flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">

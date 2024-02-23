@@ -34,8 +34,10 @@ if ($go) {
         $query = mysqli_query($dbConnect, $sql);
         $result = mysqli_fetch_assoc($query);
 
-        if ($result["password"] == $password) {
+        // if ($result["password"] == $password) {
+        if (password_verify($password, $result["password"])) {
             $_SESSION['login'] = true;
+            $_SESSION['userId'] = $result["id"]; 
             header("location: dashboard.php");
         } else {
             $_SESSION["error"] = "Please enter valid username or password.";
